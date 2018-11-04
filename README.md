@@ -29,37 +29,11 @@ want end to end control).
 
 ## Install
 
-### Debian/Ubuntu
-
-The `dnss` package installs the daemon configured in proxy mode and ready to
-use, using Google's public resolvers (and easily changed via configuration).
+Run as a docker container. It accepts all options like the standalone version on the command line
 
 ```shell
-sudo apt install dnss
+docker run -it --rm containerfactory/dnss  --help
 ```
-
-
-### Manual install
-
-To download and build the binary:
-
-```shell
-go install blitiri.com.ar/go/dnss
-```
-
-And if you want to configure the daemon to be automatically run by systemd:
-
-```shell
-# Copy the binary to a system-wide location.
-sudo cp "$GOPATH/bin/dnss" /usr/local/bin/
-
-# Set it up in systemd.
-sudo cp "$GOPATH"/src/blitiri.com.ar/go/dnss/etc/systemd/dns-to-https/* \
-	/etc/systemd/system/
-
-sudo systemctl dnss enable
-```
-
 
 ## Examples
 
