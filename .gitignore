@@ -12,3 +12,15 @@ dnss
 # Ignore the vendor directory - we don't want to embed everything, we use
 # glide to track upstream changes, but things should work.
 vendor/
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
