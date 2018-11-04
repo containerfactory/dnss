@@ -10,6 +10,8 @@ want end to end control).
 [![Build Status](https://travis-ci.org/albertito/dnss.svg?branch=master)](https://travis-ci.org/albertito/dnss)
 [![Go Report Card](https://goreportcard.com/badge/github.com/albertito/dnss)](https://goreportcard.com/report/github.com/albertito/dnss)
 
+[![](https://images.microbadger.com/badges/image/containerfactory/dnss.svg)](https://microbadger.com/images/containerfactory/dnss "Get your own image badge on microbadger.com")
+
 
 ## Features
 
